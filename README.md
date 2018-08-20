@@ -1,7 +1,7 @@
 # MATLABPlots
 
 This package implements a thin wrapper over the
-(MATLAB.jl)[https://github.com/JuliaInterop/MATLAB.jl] to provide a MATLAB
+[MATLAB.jl](https://github.com/JuliaInterop/MATLAB.jl) to provide a MATLAB
 plotting interface from the comfort of Julia. For example,
 
 ```julia
@@ -21,3 +21,5 @@ be added in time as needs arise. The functions wrapped so far are
 	* `plot` is overloaded to plot in 3D if a `z` variable is passed.
 * `plot!`
     * This plots with the hold set to true.
+
+This package is tested to work with Julia v1.0.
