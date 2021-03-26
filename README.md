@@ -1,3 +1,5 @@
+> :warning: This package no longer works as intended with recent versions of MATLAB due to changes in the plotting system. Graphics handles are no longer returned as numerical values but as objects which MATLAB.jl does not understand. As such, it is probably easier just to use the `mat"plot($x, $y)"` syntax from MATLAB.jl directly.
+
 # MATLABPlots
 
 This package implements a thin wrapper over the
